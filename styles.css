@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&family=Space+Mono&display=swap');
+
+body {
+    background-color: #FC4C4E;
+}
+
+.navbar {
+    background-color: #FC4C4E;
+    font-family: 'Smokum', cursive;
+    font-size: 3em;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.dropdown-menu {
+    font-family: 'Space Mono', monospace;
+    background-color: blanchedalmond;
+}
+
+.dropdown-menu:hover {
+    background-color: #f38f88;
+}
+
+.btn {
+    font-family: 'Space Mono', monospace;
+    background-color: blanchedalmond;
+    outline-color: blanchedalmond;
+    color: gray;
+}
+
+.btn:hover {
+    background-color:#f38f88;
+    outline-color: #f38f88;
+}
+
+.form-control {
+    font-family: 'Space Mono', monospace;
+}
+
