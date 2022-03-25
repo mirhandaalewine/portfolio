@@ -1,7 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Smokum&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Smokum&family=Space+Mono&display=swap');
 
 body {
     background-color: #FC4C4E;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding-left: 75px;
+    padding-top: 25px;
+}
+
+.title {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    background-color:#e4896e;
+}
+
+.description {
+    grid-column: 6;
+    grid-row: 1 / 4;
+    background-color:#e4896e;
+    font-family: 'Space Mono', monospace;
+    font-size: .8em;
+    padding-left: 5px;
+}
+
+.image {
+    grid-column: 3 / 6;
+    grid-row: 1 / 4;
 }
 
 .navbar {
@@ -23,19 +52,22 @@ body {
     background-color: #f38f88;
 }
 
-.btn {
-    font-family: 'Space Mono', monospace;
-    background-color: blanchedalmond;
-    outline-color: blanchedalmond;
-    color: gray;
-}
-
-.btn:hover {
-    background-color:#f38f88;
-    outline-color: #f38f88;
-}
-
 .form-control {
     font-family: 'Space Mono', monospace;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: blanchedalmond;
+    font-size: 5em;
+    padding-left: 20px;
+}
+
+a:link {
+    color:#FC4C4E;
+}
+
+a:visited {
+    color:#61241f;
 }
 
