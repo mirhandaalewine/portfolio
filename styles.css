@@ -11,6 +11,11 @@ h2 {
     padding-left: 20px;
 }
 
+::selection {
+    background: black;
+    color: blanchedalmond;
+}
+
 .navbar {
     background-color: #FC4C4E;
     font-family: 'Smokum', cursive;
