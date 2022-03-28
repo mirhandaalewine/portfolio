@@ -11,13 +11,6 @@ h2 {
     padding-left: 20px;
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
-    color: blanchedalmond;
-    font-size: 1.5em;
-    padding-left: 175px;
-}
-
 ::selection {
     background: black;
     color: blanchedalmond;
