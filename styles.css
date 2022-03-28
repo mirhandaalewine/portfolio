@@ -124,6 +124,7 @@ a:visited {
 .image {
     grid-column: 3 / 6;
     grid-row: 1 / 4;
+    padding-right: 10px;
 }
 
 .contact-grid {
