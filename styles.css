@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Raleway:wght@400&family=Smokum&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Raleway:wght@500&family=Smokum&family=Space+Mono&display=swap');
 
 body {
     background-color: #FC4C4E;
@@ -9,6 +9,13 @@ h2 {
     color: blanchedalmond;
     font-size: 5em;
     padding-left: 20px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: blanchedalmond;
+    font-size: 1.5em;
+    padding-left: 175px;
 }
 
 ::selection {
@@ -41,6 +48,29 @@ a:link {
 
 a:visited {
     color:#61241f;
+}
+
+.rounded-edges {
+    border-radius: 10px;
+}
+
+.homepage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-video {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.frame-border {
+    border-style: solid;
+    border-width: 30px;
+    border-color:#f38f88;
+    border-radius: 10px;
 }
 
 .about-grid {
