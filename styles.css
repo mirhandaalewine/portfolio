@@ -18,8 +18,8 @@ h2 {
 
 .navbar {
     background-color: #FC4C4E;
-    font-family: 'Smokum', cursive;
-    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
 }
 
 .navbar-brand {
@@ -59,6 +59,7 @@ a:visited {
 
 .intro-video {
     grid-column: 6 / 8;
+    padding-top: 18px;
 }
 
 .frame-border {
